@@ -1,0 +1,144 @@
+/*
+    Archivo css tarea semana 2 Coursera
+*/
+body{
+    margin-right:0.5%;
+    margin-left: 0.5%;
+    padding: 0%;
+}
+#title{
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Papyrus',fantasy;
+}
+#caja1_title{
+    border: 2px solid black;
+    float: right;
+    clear: left;
+    background-color: gray;
+    font-family: fantasy;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.caja1{
+    background-color: rgb(255, 255, 90);
+    border:3px solid black;
+    font-family: cursive;
+}
+#caja2_title{
+    clear: left;
+    border: 2px solid black;
+    float: right;
+    background-color: gray;
+    font-family: fantasy;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.caja2{
+    background-color: rgb(101, 101, 255);
+    border:3px solid black;
+    font-family: cursive;
+}
+#caja3_title{
+    clear: left;
+    border: 2px solid black;
+    float: right;
+    background-color: gray;
+    font-family: fantasy;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.caja3{
+    background-color: rgb(255, 119, 119);
+    border:3px solid black;
+    font-family: cursive;
+}
+p{
+    padding-top: 5%;
+}
+@media(min-width:992px){
+    #title{
+        text-align: center;
+    }
+    .caja1{
+        box-sizing:border-box;
+        height: 40%;
+        width: 30%;
+        margin-left: 0.7%;
+        float:left;
+        position: absolute;
+    }
+    .caja2{
+        box-sizing:border-box;
+        height: 40%;
+        width: 30%;
+        margin-left: 35%;
+        margin-right: 35%;
+        position: absolute;
+    }
+    .caja3{
+        box-sizing:border-box;
+        height: 40%;
+        width: 30%;
+        float:right;
+        margin-left: 68%;
+        position: absolute;
+        
+    }
+
+}
+@media (min-width:768px) and (max-width:991px){
+    #title{
+        text-align: center;
+    }
+    .caja1{
+        box-sizing:border-box;
+        height: 200px;
+        width: 48%;  
+        margin-bottom: 2%;
+        float:left;
+        position: relative;
+    }
+    .caja2{
+        box-sizing:border-box;
+        height: 200px;
+        width: 48%;
+        margin-bottom:2%;
+        float:right;
+        position: relative;
+    }
+    .caja3{
+        box-sizing:border-box;
+        height: 30%;
+        width: 99%;
+        position: relative;
+        clear:both;
+    }
+
+}
+@media (max-width:767px){
+    #title{
+        text-align: center;
+    }
+    .caja1{
+        box-sizing:border-box;
+        height: 40%;
+        width: 98%;
+        margin-bottom: 3%;
+        position: static;
+    }
+    .caja2{
+        box-sizing:border-box;
+        height: 40%;
+        width: 98%;
+        margin-bottom: 3%;
+        position: static;
+    }
+    .caja3{
+        box-sizing:border-box;
+        height: 30%;
+        width: 98%;
+        margin-bottom: 3%;
+        position: static;   
+    }
+}
